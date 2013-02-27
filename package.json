@@ -1,0 +1,12 @@
+{
+  "name": "sw-programming-challenge",
+  "description": "Startup Weekend Programming Challenge",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x"
+    , "jade": "0.28.0"
+    , "request": "2.9.153"
+ 	, "underscore": "1.3.1"
+  }
+}

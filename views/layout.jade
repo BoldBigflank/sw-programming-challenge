@@ -1,0 +1,25 @@
+!!!
+html
+    head
+        title SW Programming Challenge
+
+        link(rel="stylesheet", href="/css/bootstrap.min.css")
+        link(rel="stylesheet", href="/css/site.css")
+        block head
+    body
+        .navbar.navbar-fixed-top
+            .navbar-inner
+                .container
+                    a.brand(href="#") SW Programming Challenge
+                    ul.nav
+                        li.active 
+                            a(href="/") Home
+                    ul.nav.pull-right
+                        li
+                           a(href="/about") About
+        .container.content
+            block content
+        .container
+            .span12
+                hr
+                p.pull-right This was made by Alex Swan

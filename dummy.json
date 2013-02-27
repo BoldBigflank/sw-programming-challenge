@@ -1,0 +1,1037 @@
+[
+    {
+        "id": 1472,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Las Vegas",
+        "nickname": "",
+        "state": "NV",
+        "country": "USA",
+        "vertical": "",
+        "start_date": "2013-01-04T00:00:00.000Z",
+        "financial_status": "OPEN",
+        "website": "lasvegas.startupweekend.org",
+        "main_point_of_contact": "lasvegas@startupweekend.org",
+        "location": {
+            "lat": 36.2499553,
+            "lng": -115.17826120000001
+        },
+        "twitter_hashtag": null,
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac880200000b4d",
+                "email": "lasvegas@startupweekend.org",
+                "last_name": "Tiera",
+                "first_name": "Shavonnah",
+                "full_name": "Shavonnah Tiera",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac880200000b4d"
+        ],
+        "manager": "tawnee@startupweekend.org",
+        "eventbrite_url": "http://swlv.eventbrite.com",
+        "showDistance": false
+    },
+    {
+        "id": 1094,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Dhaka",
+        "nickname": "",
+        "state": null,
+        "country": "Bangladesh",
+        "vertical": "",
+        "start_date": "2013-01-10T00:00:00.000Z",
+        "financial_status": "CLOSED",
+        "website": "dhaka.startupweekend.org",
+        "main_point_of_contact": "Saadat Qadri",
+        "location": {
+            "lat": 23.709921,
+            "lng": 90.40714300000002
+        },
+        "twitter_hashtag": "#SWdhaka",
+        "facilitators": [],
+        "organizers": [
+            {},
+            {},
+            {}
+        ],
+        "_facilitators": [],
+        "manager": "sheikh@startupweekend.org",
+        "eventbrite_url": "",
+        "showDistance": false
+    },
+    {
+        "id": 866,
+        "event_status": "C",
+        "event_type": "Startup Weekend",
+        "city": "Sukkur",
+        "nickname": "",
+        "state": "Sindh",
+        "country": "Pakistan",
+        "vertical": "",
+        "start_date": "2013-01-11T00:00:00.000Z",
+        "financial_status": "CLOSED",
+        "website": "sukkur.startupweekend.org",
+        "main_point_of_contact": "Haseeb Tariq",
+        "location": {
+            "lat": 27.6908,
+            "lng": 68.848587
+        },
+        "twitter_hashtag": "#SWSukkur",
+        "facilitators": [
+            {
+                "name": "Haseeb Tariq",
+                "last_name": "Tariq",
+                "full_name": "Haseeb Tariq",
+                "first_name": "Haseeb",
+                "email": "haseeb@vision-link.com",
+                "_id": "5011b56e91ac880200000d2c",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac880200000d2c"
+        ],
+        "manager": "sheikh@startupweekend.org",
+        "eventbrite_url": "",
+        "showDistance": false
+    },
+    {
+        "id": 1098,
+        "event_status": "C",
+        "event_type": "Startup Weekend",
+        "city": "Agadir",
+        "nickname": "",
+        "state": null,
+        "country": "Morocco",
+        "vertical": "",
+        "start_date": "2013-01-11T00:00:00.000Z",
+        "financial_status": "CLOSED",
+        "website": "agadir.startupweekend.org",
+        "main_point_of_contact": "Badr Sellek",
+        "location": {
+            "lat": 30.4333333,
+            "lng": -9.600000000000023
+        },
+        "twitter_hashtag": "#SWagadir",
+        "facilitators": [],
+        "organizers": [
+            {},
+            {},
+            {}
+        ],
+        "_facilitators": [],
+        "manager": "brett@startupweekend.org",
+        "eventbrite_url": "",
+        "showDistance": false
+    },
+    {
+        "id": 1185,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Jackson",
+        "nickname": "",
+        "state": "MS",
+        "country": "USA",
+        "vertical": "",
+        "start_date": "2013-01-18T00:00:00.000Z",
+        "financial_status": "CLOSED",
+        "website": "jackson.startupweekend.org",
+        "main_point_of_contact": "jackson@startupweekend.org",
+        "location": {
+            "lat": 32.2987573,
+            "lng": -90.18481029999998
+        },
+        "twitter_hashtag": "#swjxn",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac880200000b47",
+                "community_role": "Core Team",
+                "name": "Marion Desmazières",
+                "last_name": "Desmazières",
+                "first_name": "Marion",
+                "email": "marion.desmaz@gmail.com",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac880200000b47"
+        ],
+        "manager": "tawnee@startupweekend.org",
+        "eventbrite_url": "http://www.eventbrite.com/event/4682781325",
+        "showDistance": false
+    },
+    {
+        "id": 1147,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Orlando",
+        "nickname": "",
+        "state": "FL",
+        "country": "USA",
+        "vertical": "EDU",
+        "start_date": "2013-01-18T00:00:00.000Z",
+        "financial_status": "OPEN",
+        "website": "orlandoedu.startupweekend.org",
+        "main_point_of_contact": "orlandoedu@startupweekend.org",
+        "location": {
+            "lat": 28.6467309,
+            "lng": -81.28273150000001
+        },
+        "twitter_hashtag": "#sworlandoedu",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac880200000b2f",
+                "email": "orrett.davis@gmail.com",
+                "last_name": "Davis",
+                "first_name": "Orrett",
+                "full_name": "Orrett Davis",
+                "account_exists": true
+            },
+            {
+                "_id": "5011b56e91ac8802000007da",
+                "community_role": "Core Team",
+                "name": "Joey Aquino",
+                "last_name": "Aquino",
+                "first_name": "Joey",
+                "email": "jaquino@startupweekend.org",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac880200000b2f",
+            "5011b56e91ac8802000007da"
+        ],
+        "manager": "danielle@startupweekend.org",
+        "eventbrite_url": "http://sworlando1112.eventbrite.com",
+        "showDistance": false
+    },
+    {
+        "id": 1483,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Denton",
+        "nickname": "",
+        "state": "TX",
+        "country": "USA",
+        "vertical": "",
+        "start_date": "2013-01-18T00:00:00.000Z",
+        "financial_status": "CLOSED",
+        "website": "denton.startupweekend.org",
+        "main_point_of_contact": "denton@startupweekend.org",
+        "location": {
+            "lat": 33.2148412,
+            "lng": -97.13306829999999
+        },
+        "twitter_hashtag": null,
+        "facilitators": [],
+        "organizers": [],
+        "_facilitators": [],
+        "manager": "tawnee@startupweekend.org",
+        "eventbrite_url": "",
+        "showDistance": false
+    },
+    {
+        "id": 1197,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Woodland Hills",
+        "nickname": "San Fernando Valley",
+        "state": "CA",
+        "country": "USA",
+        "vertical": "",
+        "start_date": "2013-01-18T00:00:00.000Z",
+        "financial_status": "CLOSED",
+        "website": "sfv.startupweekend.org",
+        "main_point_of_contact": "sfv@startupweekend.org",
+        "location": {
+            "lat": 34.165357,
+            "lng": -118.60897520000003
+        },
+        "twitter_hashtag": "#swsfv",
+        "facilitators": [],
+        "organizers": [],
+        "_facilitators": [],
+        "manager": "tawnee@startupweekend.org",
+        "eventbrite_url": "",
+        "showDistance": false
+    },
+    {
+        "id": 1189,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Grand Rapids",
+        "nickname": "",
+        "state": "MI",
+        "country": "USA",
+        "vertical": "",
+        "start_date": "2013-01-18T00:00:00.000Z",
+        "financial_status": "OPEN",
+        "website": "wmi.startupweekend.org",
+        "main_point_of_contact": "grandrapids@startupweekend.org",
+        "location": {
+            "lat": 42.9598713,
+            "lng": -85.6816096
+        },
+        "twitter_hashtag": "#swgrandrapids",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac8802000009cd",
+                "community_role": "Organizer",
+                "name": "John Rumery",
+                "last_name": "Rumery",
+                "first_name": "John",
+                "email": "johnrumery@startupweekend.org",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac8802000009cd"
+        ],
+        "manager": "danielle@startupweekend.org",
+        "eventbrite_url": "http://swgrandrapids.eventbrite.com",
+        "showDistance": false
+    },
+    {
+        "id": 972,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Missoula",
+        "nickname": "",
+        "state": "MT",
+        "country": "USA",
+        "vertical": "",
+        "start_date": "2013-01-18T00:00:00.000Z",
+        "financial_status": "OPEN",
+        "website": "missoula.startupweekend.org",
+        "main_point_of_contact": "missoula@startupweekend.org",
+        "location": {
+            "lat": 46.8605189,
+            "lng": -114.01950099999999
+        },
+        "twitter_hashtag": "#StartupMzla",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac880200000b4c",
+                "email": "Sheikh@startupweekend.org",
+                "last_name": "Shuvo",
+                "first_name": "Sheikh",
+                "full_name": "Sheikh Shuvo",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac880200000b4c"
+        ],
+        "manager": "tawnee@startupweekend.org",
+        "eventbrite_url": "http://startupweekendmissoula.eventbrite.com",
+        "showDistance": false
+    },
+    {
+        "id": 1549,
+        "event_type": "Startup Weekend",
+        "city": "Shenzhen",
+        "nickname": "",
+        "state": null,
+        "country": "China",
+        "start_date": "2013-01-18T00:00:00.000Z",
+        "location": {
+            "lat": 22.543099,
+            "lng": 114.05786799999998
+        },
+        "facilitators": [],
+        "organizers": [],
+        "_facilitators": [],
+        "showDistance": false
+    },
+    {
+        "id": 608,
+        "event_status": "C",
+        "event_type": "Startup Weekend",
+        "city": "Benha",
+        "nickname": "",
+        "state": null,
+        "country": "Egypt",
+        "vertical": null,
+        "start_date": "2013-01-23T00:00:00.000Z",
+        "financial_status": "CLOSED",
+        "website": "benha.startupweekend.org",
+        "main_point_of_contact": "benha@startupweekend.org",
+        "location": {
+            "lat": 30.4608333,
+            "lng": 31.1875
+        },
+        "twitter_hashtag": "#SWBenha",
+        "facilitators": [
+            {
+                "_id": "5011b56f91ac880200000dac",
+                "email": "dalia.alsaid@gmail.com",
+                "last_name": "Al-Said",
+                "first_name": "Dalia",
+                "full_name": "Dalia Al-Said",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {}
+        ],
+        "_facilitators": [
+            "5011b56f91ac880200000dac"
+        ],
+        "manager": "sheikh@startupweekend.org",
+        "eventbrite_url": "",
+        "showDistance": false
+    },
+    {
+        "id": 1445,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Nablus",
+        "nickname": "",
+        "state": null,
+        "country": "Palestinian Territories",
+        "vertical": "",
+        "start_date": "2013-01-24T00:00:00.000Z",
+        "financial_status": "CLOSED",
+        "website": "nablus.startupweekend.org",
+        "main_point_of_contact": "nablus@startupweekend.org",
+        "location": {
+            "lat": 32.22504,
+            "lng": 35.26097099999993
+        },
+        "twitter_hashtag": "#SWNablus",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac880200000b4c",
+                "community_role": "Core Team",
+                "name": "Sheikh Shuvo",
+                "last_name": "Shuvo",
+                "first_name": "Sheikh",
+                "email": "Sheikh@startupweekend.org",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac880200000b4c"
+        ],
+        "manager": "brett@startupweekend.org",
+        "eventbrite_url": "",
+        "showDistance": false
+    },
+    {
+        "id": 942,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "London",
+        "nickname": "",
+        "state": null,
+        "country": "UK",
+        "vertical": "EDU",
+        "start_date": "2013-01-25T00:00:00.000Z",
+        "financial_status": "CLOSED",
+        "website": "londonedu.startupweekend.org",
+        "main_point_of_contact": "londonedu@startupweekend.org",
+        "location": {
+            "lat": 51.5073346,
+            "lng": -0.12768310000001293
+        },
+        "twitter_hashtag": "#swlondonedu",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac880200000b6e",
+                "email": "nickstevens@startupweekend.org",
+                "last_name": "Stevens",
+                "first_name": "Nick",
+                "full_name": "Nick Stevens",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac880200000b6e"
+        ],
+        "manager": "deb@startupweekend.org",
+        "eventbrite_url": "http://www.eventbrite.com/myevent?eid=4675278885",
+        "showDistance": false
+    },
+    {
+        "id": 999,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Corvallis, Willamette Valley",
+        "nickname": "Willamette Valley",
+        "state": "OR",
+        "country": "USA",
+        "vertical": "",
+        "start_date": "2013-01-25T00:00:00.000Z",
+        "financial_status": "OPEN",
+        "website": "willamette.startupweekend.org",
+        "main_point_of_contact": "willamette@startupweekend.org",
+        "location": {
+            "lat": 44.56406750000001,
+            "lng": -123.19764379999998
+        },
+        "twitter_hashtag": null,
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac88020000081e",
+                "email": "sechrest@gmail.com",
+                "last_name": "Sechrest",
+                "first_name": "John",
+                "full_name": "John Sechrest",
+                "account_exists": true
+            }
+        ],
+        "organizers": [],
+        "_facilitators": [
+            "5011b56e91ac88020000081e"
+        ],
+        "manager": "tawnee@startupweekend.org",
+        "eventbrite_url": "",
+        "showDistance": false
+    },
+    {
+        "id": 1160,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Charlotte",
+        "nickname": "",
+        "state": "NC",
+        "country": "USA",
+        "vertical": "",
+        "start_date": "2013-01-25T00:00:00.000Z",
+        "financial_status": "OPEN",
+        "website": "charlotte.startupweekend.org",
+        "main_point_of_contact": "charlotte@startupweekend.org",
+        "location": {
+            "lat": 35.1046111,
+            "lng": -80.88527090000002
+        },
+        "twitter_hashtag": "#csw5",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac88020000089c",
+                "community_role": "Organizer",
+                "name": "Tyler Williams",
+                "last_name": "Williams",
+                "first_name": "Tyler",
+                "email": "ncgolfer@gmail.com",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {},
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac88020000089c"
+        ],
+        "manager": "danielle@startupweekend.org",
+        "eventbrite_url": "http://csw5.eventbrite.com",
+        "showDistance": false
+    },
+    {
+        "id": 1389,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Athens",
+        "nickname": "",
+        "state": "OH",
+        "country": "USA",
+        "vertical": "",
+        "start_date": "2013-01-25T00:00:00.000Z",
+        "financial_status": "OPEN",
+        "website": "athensoh@startupweekend.org",
+        "main_point_of_contact": "athensoh@startupweekend.org",
+        "location": {
+            "lat": 39.3274367,
+            "lng": -82.10122439999998
+        },
+        "twitter_hashtag": "#swathensoh",
+        "facilitators": [
+            {
+                "_id": "5029bfad9c398d02000008ec",
+                "community_role": "",
+                "name": "Tawnee Rebhuhn",
+                "last_name": "Rebhuhn",
+                "first_name": "Tawnee",
+                "email": "tawnee@startupweekend.org",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {}
+        ],
+        "_facilitators": [
+            "5029bfad9c398d02000008ec"
+        ],
+        "manager": "danielle@startupweekend.org",
+        "eventbrite_url": "http://swathensoh0213.eventbrite.com",
+        "showDistance": false
+    },
+    {
+        "id": 716,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Jacksonville",
+        "nickname": "",
+        "state": "FL",
+        "country": "USA",
+        "vertical": null,
+        "start_date": "2013-01-25T00:00:00.000Z",
+        "financial_status": "CLOSED",
+        "website": "jacksonville.startupweekend.org",
+        "main_point_of_contact": "jacksonville@startupweekend.org",
+        "location": {
+            "lat": 30.3321838,
+            "lng": -81.65565099999998
+        },
+        "twitter_hashtag": "#swjax",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac88020000081d",
+                "community_role": "",
+                "name": "Susie Steiner",
+                "last_name": "Steiner",
+                "first_name": "Susie",
+                "email": "ssteiner@executranservices.com",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac88020000081d"
+        ],
+        "manager": "danielle@startupweekend.org",
+        "eventbrite_url": "http://swjax.eventbrite.com/",
+        "showDistance": false
+    },
+    {
+        "id": 882,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Cologne",
+        "nickname": "",
+        "state": null,
+        "country": "Germany",
+        "vertical": "",
+        "start_date": "2013-01-25T00:00:00.000Z",
+        "financial_status": "OPEN",
+        "website": "cologne.startupweekend.org",
+        "main_point_of_contact": "cologne@startupweekend.org",
+        "location": {
+            "lat": 50.937531,
+            "lng": 6.960278600000038
+        },
+        "twitter_hashtag": "#swcologne",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac880200000a21",
+                "email": "stavros@colabworkspace.com",
+                "last_name": "Messinis",
+                "first_name": "Stavros",
+                "full_name": "Stavros Messinis",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac880200000a21"
+        ],
+        "manager": "deb@startupweekend.org",
+        "eventbrite_url": "http://www.eventbrite.com/myevent?eid=4062769854",
+        "showDistance": false
+    },
+    {
+        "id": 1231,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Tainan",
+        "nickname": "",
+        "state": null,
+        "country": "Taiwan",
+        "vertical": "Hardware",
+        "start_date": "2013-01-25T00:00:00.000Z",
+        "financial_status": "CLOSED",
+        "website": "tainan.startupweekend.org",
+        "main_point_of_contact": "Volker Heistermann",
+        "location": {
+            "lat": 22.9964254,
+            "lng": 120.21804339999994
+        },
+        "twitter_hashtag": "#SWTainan",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac880200000aa3",
+                "community_role": "Organizer",
+                "name": "Volker Heistermann",
+                "last_name": "Heistermann",
+                "first_name": "Volker",
+                "email": "vh@yushanventures.com",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac880200000aa3"
+        ],
+        "manager": "sheikh@startupweekend.org",
+        "eventbrite_url": null,
+        "showDistance": false
+    },
+    {
+        "id": 1496,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "New York City",
+        "nickname": "",
+        "state": "NY",
+        "country": "USA",
+        "vertical": "Mobile",
+        "start_date": "2013-01-25T00:00:00.000Z",
+        "financial_status": "CLOSED",
+        "website": "nycmobile.startupweekend.org",
+        "main_point_of_contact": "nycmobile@startupweekend.org",
+        "location": {
+            "lat": 40.738347,
+            "lng": -73.98243479999996
+        },
+        "twitter_hashtag": "#swnycmobile",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac880200000a5c",
+                "community_role": "",
+                "name": "Anna Curran",
+                "last_name": "Curran",
+                "first_name": "Anna",
+                "email": "annapembertoncurran@gmail.com",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac880200000a5c"
+        ],
+        "manager": "danielle@startupweekend.org",
+        "eventbrite_url": "http://swnycmobile0113.eventbrite.com",
+        "showDistance": false
+    },
+    {
+        "id": 1206,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Seattle",
+        "nickname": "",
+        "state": "WA",
+        "country": "USA",
+        "vertical": "UNI",
+        "start_date": "2013-01-25T00:00:00.000Z",
+        "financial_status": "OPEN",
+        "website": "uw.startupweekend.org",
+        "main_point_of_contact": "uw@startupweekend.org",
+        "location": {
+            "lat": 47.65335349999999,
+            "lng": -122.31165579999998
+        },
+        "twitter_hashtag": "#SWUW",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac8802000009ee",
+                "community_role": "",
+                "name": "Tom Nagle",
+                "last_name": "Nagle",
+                "first_name": "Tom",
+                "email": "tom@tomnagle.com",
+                "account_exists": true
+            }
+        ],
+        "organizers": [],
+        "_facilitators": [
+            "5011b56e91ac8802000009ee"
+        ],
+        "manager": "tawnee@startupweekend.org",
+        "eventbrite_url": "http://swuw.eventbrite.com",
+        "showDistance": false
+    },
+    {
+        "id": 785,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Seaside",
+        "nickname": "",
+        "state": "CA",
+        "country": "USA",
+        "vertical": "UNI",
+        "start_date": "2013-01-25T00:00:00.000Z",
+        "financial_status": "OPEN",
+        "website": "csumb.startupweekend.org",
+        "main_point_of_contact": "csumb@startupweekend.org",
+        "location": {
+            "lat": 36.6542925,
+            "lng": -121.80160369999999
+        },
+        "twitter_hashtag": "#SWCSUMB",
+        "facilitators": [
+            {
+                "_id": "5029bfad9c398d02000009a6",
+                "community_role": "Core Team",
+                "name": "Brett Nakatsu",
+                "last_name": "Nakatsu",
+                "first_name": "Brett",
+                "email": "brett@startupweekend.org",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5029bfad9c398d02000009a6"
+        ],
+        "manager": "tawnee@startupweekend.org",
+        "eventbrite_url": "http://www.eventbrite.com/event/3942594406",
+        "showDistance": false
+    },
+    {
+        "id": 581,
+        "event_status": "D",
+        "event_type": "Startup Weekend",
+        "city": "El Jadida",
+        "nickname": "",
+        "state": null,
+        "country": "Morocco",
+        "vertical": null,
+        "start_date": "2013-01-25T00:00:00.000Z",
+        "financial_status": "CLOSED",
+        "website": "eljadida.startupweekend.org",
+        "main_point_of_contact": "eljadida@startupweekend.org",
+        "location": {
+            "lat": 31.2833333,
+            "lng": -8.8666667
+        },
+        "twitter_hashtag": "#sweljadida",
+        "facilitators": [
+            {
+                "name": "Chama Naoufal",
+                "last_name": "Naoufal",
+                "full_name": "Chama Naoufal",
+                "first_name": "Chama",
+                "email": "chamanaoufal@gmail.com",
+                "_id": "5011b56e91ac8802000008b2",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac8802000008b2"
+        ],
+        "manager": "brett@startupweekend.org",
+        "eventbrite_url": "http://sweljadida.eventbrite.com",
+        "showDistance": false
+    },
+    {
+        "id": 841,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "San Luis Obispo, Cal Poly",
+        "nickname": "",
+        "state": "CA",
+        "country": "USA",
+        "vertical": "UNI",
+        "start_date": "2013-01-25T00:00:00.000Z",
+        "financial_status": "OPEN",
+        "website": "slo.startupweekend.org",
+        "main_point_of_contact": "slo@startupweekend.org",
+        "location": {
+            "lat": 35.3023425,
+            "lng": -120.65127610000002
+        },
+        "twitter_hashtag": "#SWSLO",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac8802000007da",
+                "email": "jaquino@startupweekend.org",
+                "last_name": "Aquino",
+                "first_name": "Joey",
+                "full_name": "Joey Aquino",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac8802000007da"
+        ],
+        "manager": "tawnee@startupweekend.org",
+        "eventbrite_url": "http://www.eventbrite.com/event/3942833120",
+        "showDistance": false
+    },
+    {
+        "id": 1128,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Riyadh",
+        "nickname": "",
+        "state": null,
+        "country": "Saudi Arabia",
+        "vertical": "",
+        "start_date": "2013-01-30T00:00:00.000Z",
+        "financial_status": "OPEN",
+        "website": "riyadh.startupweekend.org",
+        "main_point_of_contact": "Omar Zuhair",
+        "location": {
+            "lat": 24.7116667,
+            "lng": 46.72416670000007
+        },
+        "twitter_hashtag": "#SWRiyadh",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac880200000869",
+                "community_role": "Organizer",
+                "name": "Jaroslaw Bialek",
+                "last_name": "Bialek",
+                "first_name": "Jaroslaw",
+                "email": "jaroslaw.bialek@graftor.pl",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac880200000869"
+        ],
+        "manager": "sheikh@startupweekend.org",
+        "eventbrite_url": "http://swriyadh.eventbrite.com",
+        "showDistance": false
+    },
+    {
+        "id": 609,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Kuwait City",
+        "nickname": "",
+        "state": null,
+        "country": "Kuwait",
+        "vertical": null,
+        "start_date": "2013-01-31T00:00:00.000Z",
+        "financial_status": "OPEN",
+        "website": "kuwait.startupweekend.org",
+        "main_point_of_contact": "Shaymaa Al-Terkait",
+        "location": {
+            "lat": 26.6572776742176,
+            "lng": 49.81201171875
+        },
+        "twitter_hashtag": "#SWKuwaitCity",
+        "facilitators": [],
+        "organizers": [
+            {}
+        ],
+        "_facilitators": [],
+        "manager": "sheikh@startupweekend.org",
+        "eventbrite_url": "http://www.eventbrite.com/event/3624208104",
+        "showDistance": false
+    },
+    {
+        "id": 1115,
+        "event_status": "G",
+        "event_type": "Startup Weekend",
+        "city": "Sulaimanya",
+        "nickname": "",
+        "state": null,
+        "country": "Iraq",
+        "vertical": "",
+        "start_date": "2013-01-31T00:00:00.000Z",
+        "financial_status": "OPEN",
+        "website": "suly.startupweekend.org",
+        "main_point_of_contact": "Taha Faris",
+        "location": {
+            "lat": 33.223191,
+            "lng": 43.679291000000035
+        },
+        "twitter_hashtag": "#SWsuly",
+        "facilitators": [
+            {
+                "_id": "5011b56e91ac880200000b4c",
+                "email": "Sheikh@startupweekend.org",
+                "last_name": "Shuvo",
+                "first_name": "Sheikh",
+                "full_name": "Sheikh Shuvo",
+                "account_exists": true
+            }
+        ],
+        "organizers": [
+            {},
+            {},
+            {}
+        ],
+        "_facilitators": [
+            "5011b56e91ac880200000b4c"
+        ],
+        "manager": "sheikh@startupweekend.org",
+        "eventbrite_url": "http://swsuly2013.eventbrite.com",
+        "showDistance": false
+    }
+]
