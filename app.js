@@ -9,23 +9,6 @@ app.get('/', function(req, res){
 	var swapi = require('./controllers/swapi')
 	swapi.events({}, function(data){
 		res.status(200)
-  		res.render('mobile.jade', {data: data})
-	})
-})
-
-app.get('/api/events', function(req, res){
-	var swapi = require('./controllers/swapi')
-	swapi.events({}, function(data){
-		res.status(200)
-  		res.send(data)
-	})
-});
-
-
-app.get('/map', function(req, res){
-	var swapi = require('./controllers/swapi')
-	swapi.events({}, function(data){
-		res.status(200)
   		res.render('index.jade', {events: data.events})
 	})
 });
