@@ -10,11 +10,6 @@ block content
 			h3 A look at who is excited about which Startup Weekend
 	.row
 		.span3
-			form.form-search
-				input.input-medium.search-query(type="text")
-				button.btn(type="submit")
-					i.icon-search
-			
 			ul.nav.nav-list(data-bind="template: {name: 'event-list-template', foreach: events, as: 'event'}")
 				
 					
