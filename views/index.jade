@@ -1,22 +1,97 @@
 extends layout
 block head
 	script(src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js", type="text/javascript")
+	script(src="/js/bootstrap.min.js", type="text/javascript")
 	script(src="/js/index.js", type="text/javascript")
 	script(src="http://www.mapquestapi.com/sdk/js/v7.0.s/mqa.toolkit.js?key=Fmjtd%7Cluua20utnh%2Cbs%3Do5-967au6")
 block content
 	.row
+
 		.span12
 			h1 Where are we going?
 			h3 A look at who is excited about which Startup Weekend
 	.row
-		.span3
-			ul.nav.nav-list
-				li.nav-header Choose a City
-				- for (x in events)
-					li.cityListItem
-						a.cityLink(href="#", code="#{events[x].twitter_hashtag}") #{events[x].city}, #{events[x].state}
-							input(type="hidden", name="lat", value=events[x].location.lat)
-							input(type="hidden", name="lng", value=events[x].location.lng)
-		.span9
+		.span3#cityList
+			.tabbable
+				ul.nav.nav-tabs
+					li.active
+						a(href="#upcomingTab", data-toggle="tab") Upcoming
+					li 
+						a(href="#pastTab", data-toggle="tab") Past
+				.tab-content
+					.tab-pane.active#upcomingTab
+						ul.nav.nav-list
+							
+							- var workingDate = ""
+							- for (x in upcoming)
+								- var event = upcoming[x]
+								- var date = event.start_date.substr(0,10)
+								if(workingDate != date)	
+									- workingDate = date
+									li.nav-header #{workingDate}
+								li.cityListItem
+									- var state = event.state ? event.state : event.country
+									a.cityLink(href="#", code="#{event.twitter_hashtag}") #{event.city}, #{state}
+										input(type="hidden", name="id", value=event.id)
+					.tab-pane#pastTab
+						ul.nav.nav-list
+							- var workingDate = ""
+							- for (x in past)
+								- var event = past[x]
+								- var date = event.start_date.substr(0,10)
+								if(workingDate != date)	
+									- workingDate = date
+									li.nav-header #{workingDate}
+								li.cityListItem
+									- var state = event.state ? event.state : event.country
+									a.cityLink(href="#", code="#{event.twitter_hashtag}") #{event.city}, #{state} #{date}
+										input(type="hidden", name="id", value=event.id)
+		.span9#details.hide
+			.well
+				.container#loading
+					img(src="/img/ajax-loader.gif")
+				.container#content
+					a.visible-phone#phoneReturn(href="#") <- Return to City List
+					.row-fluid
+						.span3
+							p.hidden-phone
+								strong.pull-right Name
+							p.visible-phone
+								strong.pull-left Name
+						.span3
+							span#name.pull-left Name
+					.row-fluid
+						.span3
+							p.hidden-phone
+								strong.pull-right Location
+							p.visible-phone
+								strong.pull-left Location
+						.span3
+							span#location.pull-left location
+					.row-fluid
+						.span3
+							p.hidden-phone
+								strong.pull-right Date
+							p.visible-phone
+								strong.pull-left Date
+						.span3
+							span#date.pull-left date
+					.row-fluid
+						.span3
+							p.hidden-phone
+								strong.pull-right Hashtag
+							p.visible-phone
+								strong.pull-left Hashtag
+						.span3
+							span#hashtag.pull-left hashtag
+					.row-fluid
+						.span3
+							p.hidden-phone
+								strong.pull-right Website
+							p.visible-phone
+								strong.pull-left Website
+						.span3
+							span#website.pull-left website
+		.span9.hidden-phone#mapWell
 			.well
 				div#map.map

@@ -9,14 +9,25 @@ app.get('/', function(req, res){
 	var swapi = require('./controllers/swapi')
 	swapi.events({}, function(data){
 		res.status(200)
-  		res.render('index.jade', {events: data.events})
+  		res.render('index.jade', data)
 	})
 });
 
+app.get('/api/events', function(req, res){
+	var swapi = require('./controllers/swapi')
+	swapi.events({}, function(data){
+		res.status(200)
+  		res.send(data)
+	})
+})
 
-// Get twitter info from the specified hashtag
-app.post('/hashtag', function(req, res){
-	res.send(200)
+
+app.get('/event', function(req, res){
+	var swapi = require('./controllers/swapi')
+	swapi.event(req.query.id, function(data){
+		res.status(200)
+		res.send(data)
+	})
 })
 
 app.listen(process.env.PORT || 3000);
