@@ -22,15 +22,57 @@ $(function(){
 		var link = this
 		$("li.cityListItem").removeClass('active')
 		$(link).parent().addClass('active')
-		$.post('/city', {city: $(link).html()}, function(data){
+		var id = $(link).find("input[name='id']").val()
+		$.get('/event?id=' + id, function(data){
+			console.log(data)
 
-			var lat = $(link).find("input[name='lat']").val()
-			var lng = $(link).find("input[name='lng']").val()
+			// Populate/show the details
+
 			
+			$("#details #name").html(data.event_type)
+			$("#details #location").html(data.city + ", " + (data.state ? data.state : data.country) )
+			$("#details #date").html(data.start_date)
+			$("#details #hashtag").html(data.twitter_hashtag)
+			$("#details #website").html('<a href="http://' + data.website + '">' + data.website + "</a>");
+			$("#details").hide().slideDown()
+			
+			// Move the map
+			var lat = data.location.lat
+			var lng = data.location.lng
+			console.log(lat, lng)
 			// Update the map location
-			map.setCenterAnimate(new MQA.LatLng(lat,lng),5,{totalMs:1500,steps:200})
+
+			/*Using the MQA.Poi constructor*/ 
+			var info=new MQA.Poi({lat:lat, lng:lng});
+
+			/*Sets the rollover content of the POI.*/ 
+			// info.setRolloverContent('Sports Authority Field at Mile High');
+
+			/*Sets the InfoWindow contents for the POI. By default, when the POI receives a mouseclick 
+			event, the InfoWindow will be displayed with the HTML passed in to MQA.POI.setInfoContentHTML method.*/ 
+			var contentHTML = "<a href='http://" + data.website +"'>" + data.website + "</a>"
+			info.setInfoContentHTML(contentHTML);
+
+			/*This will add the POI to the map in the map's default shape collection.*/ 
+			map.addShape(info);
+
+			map.setCenterAnimate(new MQA.LatLng(lat,lng),7,{totalMs:1500,steps:200})
+
+			
 		})
 		return false
 	})
+
+
+	// Bootstrap tabs
+	$('#upcomingTab a').click(function (e) {
+		e.preventDefault();
+		$(this).tab('show');
+	})
+	$('#pastTab a').click(function (e) {
+		e.preventDefault();
+		$(this).tab('show');
+	})
+
 
 })
