@@ -25,26 +25,36 @@ block content
 				.tab-content
 					.tab-pane.active#upcomingTab
 						ul.nav.nav-list
-							//- li.nav-header Choose a City
+							
+							- var workingDate = ""
 							- for (x in upcoming)
+								- var event = upcoming[x]
+								- var date = event.start_date.substr(0,10)
+								if(workingDate != date)	
+									- workingDate = date
+									li.nav-header #{workingDate}
 								li.cityListItem
-									- var event = upcoming[x]
-									- var date = event.start_date.substr(0,10)
 									- var state = event.state ? event.state : event.country
-									a.cityLink(href="#", code="#{event.twitter_hashtag}") #{event.city}, #{state} #{date}
+									a.cityLink(href="#", code="#{event.twitter_hashtag}") #{event.city}, #{state}
 										input(type="hidden", name="id", value=event.id)
 					.tab-pane#pastTab
 						ul.nav.nav-list
+							- var workingDate = ""
 							- for (x in past)
+								- var event = past[x]
+								- var date = event.start_date.substr(0,10)
+								if(workingDate != date)	
+									- workingDate = date
+									li.nav-header #{workingDate}
 								li.cityListItem
-									- var event = past[x]
-									- var date = event.start_date.substr(0,10)
 									- var state = event.state ? event.state : event.country
 									a.cityLink(href="#", code="#{event.twitter_hashtag}") #{event.city}, #{state} #{date}
 										input(type="hidden", name="id", value=event.id)
 		.span9#details.hide
 			.well
-				.container
+				.container#loading
+					img(src="/img/ajax-loader.gif")
+				.container#content
 					.row
 						.span3
 							p

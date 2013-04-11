@@ -23,6 +23,9 @@ $(function(){
 		$("li.cityListItem").removeClass('active')
 		$(link).parent().addClass('active')
 		var id = $(link).find("input[name='id']").val()
+		$("#details #loading").show()
+		$("#details #content").hide()
+		$("#details").hide().slideDown()
 		$.get('/event?id=' + id, function(data){
 			console.log(data)
 
@@ -31,10 +34,13 @@ $(function(){
 			
 			$("#details #name").html(data.event_type)
 			$("#details #location").html(data.city + ", " + (data.state ? data.state : data.country) )
-			$("#details #date").html(data.start_date)
+			$("#details #date").html(data.start_date.substr(0,10))
 			$("#details #hashtag").html(data.twitter_hashtag)
 			$("#details #website").html('<a href="http://' + data.website + '">' + data.website + "</a>");
-			$("#details").hide().slideDown()
+			
+			$("#details #loading").hide()
+			$("#details #content").show()
+
 			
 			// Move the map
 			var lat = data.location.lat

@@ -4,10 +4,10 @@ var _ = require('underscore')
 
 exports.events = function(options, fn){
 	var now = new Date();
-	var today = now.getFullYear() + "-" + now.getMonth() + "-" + now.getDate();
+	var today = now.getFullYear() + "-" + (now.getMonth()+1) + "-" + now.getDate();
 	var pastMonth = new Date();
 	pastMonth.setDate(pastMonth.getDate()-30);
-	var oneMonthAgo = pastMonth.getFullYear() + "-" + pastMonth.getMonth() + "-" + pastMonth.getDate();
+	var oneMonthAgo = pastMonth.getFullYear() + "-" + (pastMonth.getMonth()+1) + "-" + pastMonth.getDate();
 	var pastUrl = host + "?event_status=G&until=" + today + "&since=" + oneMonthAgo
 	console.log(pastUrl)
 	var data = {}
@@ -16,7 +16,7 @@ exports.events = function(options, fn){
 		data.past = past
 
 		now.setDate(now.getDate()+1)
-		var tomorrow = now.getFullYear() + "-" + now.getMonth() + "-" + now.getDate();
+		var tomorrow = now.getFullYear() + "-" + (now.getMonth()+1) + "-" + now.getDate();
 
 		upcomingUrl = host + "?event_status=G&since=" + tomorrow
 		console.log(upcomingUrl)
@@ -30,10 +30,11 @@ exports.events = function(options, fn){
 }
 
 exports.event = function(id, fn){
-	request(host, function(error, response, body){
+	request(host + "?event_status=G", function(error, response, body){
 		var events = JSON.parse(body)
+		console.log("found events", events.length)
 		var event = _.find(events, function (obj) {return obj.id == id});
-		console.log(event);
+		console.log(event)
 		fn(event)
 	})
 }

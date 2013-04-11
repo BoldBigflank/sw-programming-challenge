@@ -24,7 +24,6 @@ app.get('/api/events', function(req, res){
 
 app.get('/event', function(req, res){
 	var swapi = require('./controllers/swapi')
-	console.log(req.query)
 	swapi.event(req.query.id, function(data){
 		res.status(200)
 		res.send(data)
