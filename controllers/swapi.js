@@ -30,10 +30,8 @@ exports.events = function(options, fn){
 }
 
 exports.event = function(id, fn){
-	request(host + "?event_status=G", function(error, response, body){
-		var events = JSON.parse(body)
-		console.log("found events", events.length)
-		var event = _.find(events, function (obj) {return obj.id == id});
+	request(host + "/" + id, function(error, response, body){
+		var event = JSON.parse(body)
 		console.log(event)
 		fn(event)
 	})
