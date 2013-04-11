@@ -11,11 +11,7 @@ block content
 			h1 Where are we going?
 			h3 A look at who is excited about which Startup Weekend
 	.row
-		.span3
-			form.form-search
-				input.input-medium.search-query(type="text")
-				button.btn(type="submit")
-					i.icon-search
+		.span3#cityList
 			.tabbable
 				ul.nav.nav-tabs
 					li.active
@@ -55,36 +51,47 @@ block content
 				.container#loading
 					img(src="/img/ajax-loader.gif")
 				.container#content
-					.row
+					a.visible-phone#phoneReturn(href="#") <- Return to City List
+					.row-fluid
 						.span3
-							p
+							p.hidden-phone
 								strong.pull-right Name
+							p.visible-phone
+								strong.pull-left Name
 						.span3
 							span#name.pull-left Name
-					.row
+					.row-fluid
 						.span3
-							p
+							p.hidden-phone
 								strong.pull-right Location
+							p.visible-phone
+								strong.pull-left Location
 						.span3
 							span#location.pull-left location
-					.row
+					.row-fluid
 						.span3
-							p
+							p.hidden-phone
 								strong.pull-right Date
+							p.visible-phone
+								strong.pull-left Date
 						.span3
 							span#date.pull-left date
-					.row
+					.row-fluid
 						.span3
-							p
+							p.hidden-phone
 								strong.pull-right Hashtag
+							p.visible-phone
+								strong.pull-left Hashtag
 						.span3
 							span#hashtag.pull-left hashtag
-					.row
+					.row-fluid
 						.span3
-							p
+							p.hidden-phone
 								strong.pull-right Website
+							p.visible-phone
+								strong.pull-left Website
 						.span3
 							span#website.pull-left website
-		.span9
+		.span9.hidden-phone#mapWell
 			.well
 				div#map.map

@@ -26,11 +26,10 @@ $(function(){
 		$("#details #loading").show()
 		$("#details #content").hide()
 		$("#details").hide().slideDown()
+		if($("#mapWell").is(':hidden'))
+			$("#cityList").slideUp()
 		$.get('/event?id=' + id, function(data){
-			console.log(data)
-
 			// Populate/show the details
-
 			
 			$("#details #name").html(data.event_type)
 			$("#details #location").html(data.city + ", " + (data.state ? data.state : data.country) )
@@ -45,7 +44,6 @@ $(function(){
 			// Move the map
 			var lat = data.location.lat
 			var lng = data.location.lng
-			console.log(lat, lng)
 			// Update the map location
 
 			/*Using the MQA.Poi constructor*/ 
@@ -80,5 +78,10 @@ $(function(){
 		$(this).tab('show');
 	})
 
+	$("#phoneReturn").click(function(e){
+		$("#cityList").show()
+		$("#details").hide()
+		return false;
+	})
 
 })
